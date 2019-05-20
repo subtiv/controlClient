@@ -1,0 +1,28 @@
+{
+  "name": "controlclient",
+  "version": "1.0.0",
+  "description": "client app for Art & Tech / Communicating with controlATServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subtiv/controlClient.git"
+  },
+  "keywords": [
+    "node",
+    "osc",
+    "websocket",
+    "socketio",
+    "art",
+    "ehb",
+    "subtiv"
+  ],
+  "author": "subtiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subtiv/controlClient/issues"
+  },
+  "homepage": "https://github.com/subtiv/controlClient#readme"
+}
