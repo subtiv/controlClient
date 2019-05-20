@@ -1,6 +1,7 @@
 {
-    "OSC-INPUT": 46697,
-    "OSC-OUTPUT": 12345,
-    "OSC-ADDRESS": "127.0.0.1",
-    "SERVER-ADDRESS" : "http://controlatserver.herokuapp.com/"
+    "NAME": "SUBTIV CLIENT",
+    "OSCINPUT": 46697,
+    "OSCOUTPUT": 12345,
+    "OSCADDRESS": "127.0.0.1",
+    "SERVERADDRESS" : "http://controlatserver.herokuapp.com/"
 }

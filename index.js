@@ -1,10 +1,12 @@
+var fs = require('fs');
 // var osc = require("osc");
-var config = require('./config.js')();
 var io = require('socket.io-client');
-var socket = io.connect(config.serverAddress);
+
+let SETTINGS = JSON.parse(fs.readFileSync('settings.json'));  
+let socket = io.connect(SETTINGS.SERVERADDRESS);
 
 socket.emit("hello", {
-    name: "first client"
+    name: SETTINGS.NAME
 });
 
 socket.on("message", (data) => {
