@@ -22,7 +22,7 @@ More information: www.controlcontrolcontrol.club; find the current running data-
 
 
 ## Example : SEND OSC from VDMX to the platform
-* create new datastream here: https://github.com/subtiv/ControlATSettings/blob/master/settings.json, lets call it "newstream" and it is a floating point (we can send out floats between [0…1] or have strings. We can also define a group, in order to keep relevant data together on the controlcontrolcontrol.club site.
+* create new datastream here: https://github.com/subtiv/ControlATSettings/blob/master/settings.json, lets call it "newstream" and it is a floating point (we can send out floats between [0…1] or have strings. We can also define a group, in order to keep relevant data together on the controlcontrolcontrol.club site. (request modification access to the repository if you want to make changes; we pull in this json "raw" in our server)
 * update the datastreams here: http://controlcontrolcontrol.club --> hit button "update data stream settings"
 * we open VDMX, check that we have an output OSC port that is identical to our "settings.json" input osc port
 * we create a new slider (in a control surface forex), and in "UI inspector" we make sure that we have "send" set to OSC, select the port of the controlClient settings (OSCINPUT). The address is identical to the name of the stream BUT with an "/" before, as is common in OSC-protocol
