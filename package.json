@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/subtiv/controlClient/issues"
   },
-  "homepage": "https://github.com/subtiv/controlClient#readme"
+  "homepage": "https://github.com/subtiv/controlClient#readme",
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
 }
