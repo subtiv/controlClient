@@ -4,7 +4,7 @@ This simple CLI app has been made to transform OSC to a Websocket server and bac
 More information: www.controlcontrolcontrol.club; find the current running data-streams.
 
 ## install
-* make sure you have NPM & Node installed
+* make sure you have NPM & Node installed (www.node.org)
 * git clone this repo
 * when inside local repository: hit "npm i" to install dependencies
 * make modifications to "settings.json"  (see below)
