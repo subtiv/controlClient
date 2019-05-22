@@ -3,5 +3,7 @@
     "OSCINPUT": 46697,
     "OSCOUTPUT": 12345,
     "OSCADDRESS": "127.0.0.1",
-    "SERVERADDRESS" : "http://controlatserver.herokuapp.com/"
+    "SERVERADDRESS" : "http://controlatserver.herokuapp.com/",
+    "POLLING": 500,
+    "REQUESTSTREAMS" : ["teststream1","teststream2","teststream3"]
 }
